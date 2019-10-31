@@ -10,7 +10,7 @@ service: lamda-hello-world
 # The `provider` block defines where your service will be deployed
 provider:
   name: aws
-  runtime: nodejs11.x
+  runtime: nodejs10.x
   region: eu-central-1
 
 # The `functions` block defines what code to deploy
